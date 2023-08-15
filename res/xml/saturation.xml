@@ -6,7 +6,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:settings="http://schemas.android.com/apk/res/org.evolution.pixelparts">
 
-    <org.evolution.pixelparts.preferences.CustomSeekBarPreference
+    <org.evolution.pixelparts.CustomSeekBarPreference
         android:key="saturation"
         android:persistent="true"
         android:max="200"

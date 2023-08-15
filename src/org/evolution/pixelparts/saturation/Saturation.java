@@ -15,8 +15,8 @@ import androidx.preference.PreferenceManager;
 
 import java.io.IOException;
 
-import org.evolution.pixelparts.misc.Constants;
-import org.evolution.pixelparts.preferences.CustomSeekBarPreference;
+import org.evolution.pixelparts.Constants;
+import org.evolution.pixelparts.CustomSeekBarPreference;
 import org.evolution.pixelparts.R;
 
 public class Saturation extends PreferenceFragment

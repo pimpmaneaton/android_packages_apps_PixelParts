@@ -22,7 +22,7 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
-import org.evolution.pixelparts.misc.Constants;
+import org.evolution.pixelparts.Constants;
 import org.evolution.pixelparts.R;
 import org.evolution.pixelparts.utils.FileUtils;
 

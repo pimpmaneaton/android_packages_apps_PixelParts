@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 The Evolution X Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:settings="http://schemas.android.com/apk/res/org.evolution.pixelparts">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="pixel_torch_intro"
+        android:title="@string/pixel_torch_summary" />
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="pixel_torch"
+        android:title="@string/pixel_torch_main_switch_title"
+        android:defaultValue="false" />
+
+    <org.evolution.pixelparts.CustomSeekBarPreference
+        android:key="pixel_torch_strength"
+        android:title="@string/pixel_torch_strength_title"
+        android:summary="@string/pixel_torch_strength_summary"
+        android:persistent="true"
+        android:max="45"
+        android:min="1"
+        settings:units=""
+        android:defaultValue="45" />
+
+    <org.evolution.pixelparts.CustomSeekBarPreference
+        android:key="shake_sensitivity"
+        android:title="@string/shake_sensitivity_title"
+        android:summary="@string/shake_sensitivity_summary"
+        android:persistent="true"
+        android:max="1000"
+        android:min="100"
+        settings:units="G-force"
+        android:defaultValue="400" />
+
+    <org.evolution.pixelparts.CustomSeekBarPreference
+        android:key="shake_threshold"
+        android:title="@string/shake_threshold_title"
+        android:summary="@string/shake_threshold_summary"
+        android:persistent="true"
+        android:max="3000"
+        android:min="500"
+        settings:units="milliseconds"
+        android:defaultValue="45" />
+</PreferenceScreen>

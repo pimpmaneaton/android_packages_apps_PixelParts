@@ -10,7 +10,6 @@ android_app {
     ],
     srcs: [
         "src/**/*.java",
-        "src/**/*.kt",
     ],
     certificate: "platform",
     platform_apis: true,
@@ -19,17 +18,9 @@ android_app {
     static_libs: [
         "androidx.core_core",
         "androidx.preference_preference",
-        "particles",
     ],
     resource_dirs: ["res"],
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
-}
-
-java_import {
-    name: "particles",
-    jars: [
-        "libs/LeonidsLib.jar",
-    ],
 }
