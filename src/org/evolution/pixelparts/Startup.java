@@ -10,7 +10,6 @@ import android.content.Context;
 import android.content.Intent;
 
 import org.evolution.pixelparts.autohbm.AutoHbm;
-import org.evolution.pixelparts.chargecontrol.ChargeControl;
 import org.evolution.pixelparts.fastcharge.FastCharge;
 import org.evolution.pixelparts.pixeltorch.*;
 import org.evolution.pixelparts.saturation.Saturation;
@@ -27,10 +26,6 @@ public class Startup extends BroadcastReceiver {
 
         // Auto hbm
         AutoHbm.toggleAutoHbmService(context);
-
-        // Charge control
-        ChargeControl.restoreStartChargingSetting(context);
-        ChargeControl.restoreStopChargingSetting(context);
 
         // Fast charge
         FastCharge.restoreFastChargeSetting(context);
