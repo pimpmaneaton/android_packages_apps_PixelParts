@@ -43,15 +43,6 @@
             android:icon="@drawable/ic_auto_hbm_tile"
             android:theme="@style/Theme.SubSettingsBase"
             android:exported="true">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.display" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/auto_hbm_summary" />
         </activity>
 
         <!-- Auto HBM service -->
@@ -78,15 +69,6 @@
             android:icon="@drawable/ic_battery_info_tile"
             android:theme="@style/Theme.SubSettingsBase"
             android:exported="true">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.battery" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/battery_info_summary" />
         </activity>
 
         <!-- Battery info tile service -->
@@ -132,15 +114,6 @@
             android:icon="@drawable/ic_saturation_tile"
             android:screenOrientation="portrait"
             android:exported="true">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.display" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/saturation_summary" />
         </activity>
 
         <!-- Saturation tile service -->
@@ -162,15 +135,6 @@
             android:theme="@style/Theme.SubSettingsBase"
             android:icon="@drawable/ic_fast_charge_tile"
             android:exported="true">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.battery" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/fast_charge_summary" />
         </activity>
 
         <!-- Fast charge tile service -->
